@@ -1,0 +1,46 @@
+body {
+    background-image: url("./images/background1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1 {
+    color: blanchedalmond;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size: 60px;
+    text-align: center;
+}
+.demolist {
+    color: blanchedalmond;
+    list-style-type: square;
+    font-family: cursive;
+    font-size: 20px;
+}
+.demolist #demoid {
+    color:aquamarine;
+}
+.images {
+   float: right;
+   width: 400px;
+   height: 300px;
+}
+p {
+    color:blanchedalmond;
+    font-size: 50px;
+}
+ button {
+    background-color: aquamarine;
+    
+    height: 50px;
+    flex-wrap: wrap;
+    align-self: center;
+ }
+ footer {
+    color: rgb(187, 208, 244);
+    font-family:cursive;
+    position: fixed;
+    bottom:0;
+   text-align: center;
+    width: 100%;
+ }
